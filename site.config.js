@@ -1,6 +1,6 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: 'b836760999354b48a1cf9443b0f3ecff?v=eecc565fba1a4124984e5d55e204ea13',
+  rootNotionPageId: 'fe1cdd9317464e098ba7728e0e2ee7b2',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -8,7 +8,7 @@ module.exports = {
 
   // basic site info (required)
   name: 'Myblog',
-  domain: 'https://lapis-lightyear-0b5.notion.site/b836760999354b48a1cf9443b0f3ecff?v=eecc565fba1a4124984e5d55e204ea13',
+  domain: 'https://lapis-lightyear-0b5.notion.site/fe1cdd9317464e098ba7728e0e2ee7b2',
   author: 'Tang',
 
   // open graph metadata (optional)
