@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-notion-starter-kit",
+  "name": "TANG",
   "version": "0.1.0",
   "private": true,
   "description": "The perfect starter kit for building beautiful websites with Next.js and Notion.",
@@ -13,7 +13,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "deploy": "vercel --prod",
+    "deploy": null,
     "deps": "run-s deps:*",
     "deps:update": "[ -z $GITHUB_ACTIONS ] && yarn add notion-client notion-types notion-utils react-notion-x || echo 'Skipping deps:update on CI'",
     "deps:link": "[ -z $GITHUB_ACTIONS ] && yarn link notion-client notion-types notion-utils react-notion-x || echo 'Skipping deps:link on CI'",
